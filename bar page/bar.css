@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #373434;
+    background-image: url('background.png');
+    background-position: right center;
+    background-size: auto 90%;
+    background-repeat: no-repeat;
+    font-family: "Merriweather", serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.frame {
+    width: 50%;
+    background-color: #2E2626;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 30px;
+    color: #C3BAB8;
+    padding-top: 50px;
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+h2 {
+    margin-left: 20px;
+}
+p {
+    margin: 50px;
+}
+li{
+    margin-left: 50px;
+    line-height: 1.2;
+}
+section {
+    margin-bottom: 30px;
+}
+.frame::-webkit-scrollbar {
+    width: 12px;
+}
+
+.frame::-webkit-scrollbar-track {
+    background: #373434;
+    border-radius: 6px;
+}
+
+.frame::-webkit-scrollbar-thumb {
+    background-color: #2E2626;
+    border-radius: 6px;
+    border: 2px solid #373434;
+}
